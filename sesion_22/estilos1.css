@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#hola{
+    background-color: blanchedalmond !important;
+    height: 70vh;
+
+    
+}
+
+#der{
+    background-color: azure;
+    height: 70vh;
+}

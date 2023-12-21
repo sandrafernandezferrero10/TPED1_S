@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#hola{
+    background-color: blanchedalmond !important;
+}
+
+#sup{
+    height: 70vh;
+    background-color: aquamarine;
+    
+   
+}
+
+#izq{
+    
+    height: 15vh;
+}
+
+#der{
+    height: 15vh;
+
+}
+
+#centro{
+    height: 15vh;
+    background-color: brown;
+}
+
+#columna1{
+    height: 70vh;
+    background-color: antiquewhite;
+}
+
+#columna2{
+    height: 70vh;
+    background-color: aquamarine;
+}
+
+#columna3{
+    height: 70vh;
+    background-color: blueviolet;
+}

@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#hola{
+    background-color: blanchedalmond !important;
+}
+
+#sup{
+    height: 15vh;
+    background-color: aquamarine;
+}
+
+#izq{
+    background-color: blue;
+    height: 70vh;
+}
+
+#der{
+    height: 70vh;
+    background-color: rgb(43, 177, 226);
+}
+
+#cola{
+    height: 70vh;
+    background-color: brown;
+}

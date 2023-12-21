@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#izq{
+background-color: aquamarine;
+height: 70vh;
+}
+
+#der{
+    background-color: bisque;
+    height: 70vh;
+}
