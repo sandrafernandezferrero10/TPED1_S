@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    width: 100%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+    justify-content: center;
+    align-items: center;
+
+}
+
+a:hover img {
+    filter: saturate(1);
+}
