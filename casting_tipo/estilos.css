@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    display: flex;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .menu a {
+    background-color: #e60909e6;
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: rgb(162, 90, 90);
+  }
+  
+  .main {
+    display: flex;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
+  .right {
+    background-color: #e5e5e5;
+    display: flex;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
