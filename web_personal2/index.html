@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sandra Studio Tattoo</title>
+</head>
+<body>
+    <header>
+        <h1>Sandra Studio Tattoo</h1>
+        <nav>
+            <ul>
+                <p><li><a href="#inicio">BIENVENIDOS A LA WEB DEL ESTUDIO SANDRA TATTOO</a></li></p>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>BIENVENIDOS A LA WEB DEL ESTUDIO SANDRA TATTOO</h2>
+        <p>Si te gustaría concertar una cita con nosotros, ve directamente a nuestra página de contacto y dinos por teléfono, email o Whatsapp que te gustaría hacerte.</p>
+
+           <p> Si lo que buscas es inspiración, no dudes en visitar nuestras galerías en las secciones tattoo y piercing. <p>
+            
+           <p> No te olvides tampoco de ver nuestros consejos sobre los cuidados higiénicos para tattoos y piercings.</p>
+
+           </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="tattoo-item">
+            <img src="Tatuaje Mariposa.jpg" alt="Tatuaje 1">
+            <p>Tatuaje detallado en blanco y negro</p>
+        </div>
+        <div class="tattoo-item">
+            <img src="mariposa2.jpg" alt="Tatuaje 2">
+            <p>Tatuaje detallado en blanco y negro</p>
+            <div class="tattoo-item">
+                <img src="sol.jpg" alt="Tatuaje 3">
+                <p>Tatuaje detallado en blanco y negro</p>
+            </div>
+        
+        </div>
+        <section id="portfolio">
+            <div class="tattoo-item">
+                <img src="pulpo.jpg" alt="Tatuaje 1">
+                <p>Tatuaje detallado en acuarela</p>
+            </div>
+            <div class="tattoo-item">
+                <img src="pez.jpg" alt="Tatuaje 2">
+                <p>Tatuaje detallado en acuarela</p>
+                <div class="tattoo-item">
+                    <img src="hoja.jpg" alt="Tatuaje 3">
+                    <p>Tatuaje detallado en acuarela</p>
+                
+            </div>
+
+    
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Programa tu cita ahora!</p>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Studio Tattoo</p>
+    </footer>
+</body>
+</html>
